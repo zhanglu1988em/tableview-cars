@@ -13,6 +13,9 @@
 		A69077581C3AB6C600EA3C1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A69077561C3AB6C600EA3C1C /* Main.storyboard */; };
 		A690775A1C3AB6C600EA3C1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A69077591C3AB6C600EA3C1C /* Assets.xcassets */; };
 		A690775D1C3AB6C600EA3C1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A690775B1C3AB6C600EA3C1C /* LaunchScreen.storyboard */; };
+		A69077651C3AB6DB00EA3C1C /* cars_total.plist in Resources */ = {isa = PBXBuildFile; fileRef = A69077641C3AB6DB00EA3C1C /* cars_total.plist */; };
+		A6EB3D441C3AB8FE000B4BAE /* CarGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EB3D431C3AB8FE000B4BAE /* CarGroup.m */; };
+		A6EB3D471C3AB9CE000B4BAE /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EB3D461C3AB9CE000B4BAE /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		A69077591C3AB6C600EA3C1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A690775C1C3AB6C600EA3C1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A690775E1C3AB6C600EA3C1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A69077641C3AB6DB00EA3C1C /* cars_total.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cars_total.plist; sourceTree = "<group>"; };
+		A6EB3D421C3AB8FE000B4BAE /* CarGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarGroup.h; sourceTree = "<group>"; };
+		A6EB3D431C3AB8FE000B4BAE /* CarGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarGroup.m; sourceTree = "<group>"; };
+		A6EB3D451C3AB9CE000B4BAE /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		A6EB3D461C3AB9CE000B4BAE /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +74,12 @@
 				A69077591C3AB6C600EA3C1C /* Assets.xcassets */,
 				A690775B1C3AB6C600EA3C1C /* LaunchScreen.storyboard */,
 				A690775E1C3AB6C600EA3C1C /* Info.plist */,
+				A69077641C3AB6DB00EA3C1C /* cars_total.plist */,
 				A690774D1C3AB6C500EA3C1C /* Supporting Files */,
+				A6EB3D421C3AB8FE000B4BAE /* CarGroup.h */,
+				A6EB3D431C3AB8FE000B4BAE /* CarGroup.m */,
+				A6EB3D451C3AB9CE000B4BAE /* Car.h */,
+				A6EB3D461C3AB9CE000B4BAE /* Car.m */,
 			);
 			path = "05-uitablevew-汽车之家";
 			sourceTree = "<group>";
@@ -138,6 +151,7 @@
 			files = (
 				A690775D1C3AB6C600EA3C1C /* LaunchScreen.storyboard in Resources */,
 				A690775A1C3AB6C600EA3C1C /* Assets.xcassets in Resources */,
+				A69077651C3AB6DB00EA3C1C /* cars_total.plist in Resources */,
 				A69077581C3AB6C600EA3C1C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,6 +163,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6EB3D471C3AB9CE000B4BAE /* Car.m in Sources */,
+				A6EB3D441C3AB8FE000B4BAE /* CarGroup.m in Sources */,
 				A69077551C3AB6C600EA3C1C /* ViewController.m in Sources */,
 				A69077521C3AB6C600EA3C1C /* AppDelegate.m in Sources */,
 				A690774F1C3AB6C600EA3C1C /* main.m in Sources */,
@@ -298,6 +314,7 @@
 				A69077631C3AB6C600EA3C1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
